@@ -1,1 +1,1 @@
-include ':app', ':interceptors'
+include ':sample', ':interceptors'

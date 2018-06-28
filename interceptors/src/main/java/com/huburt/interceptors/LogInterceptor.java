@@ -11,9 +11,6 @@ import okhttp3.Response;
 import okio.Buffer;
 import okio.BufferedSource;
 
-/**
- * Created by Yune on 2017/4/25.
- */
 
 public class LogInterceptor implements Interceptor {
 
