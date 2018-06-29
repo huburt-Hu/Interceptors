@@ -9,10 +9,16 @@
 
 ```
 allprojects {
-	repositories {
-		...
-		maven { url 'https://jitpack.io' }
-	}
+    repositories {
+        ...
+        maven { url 'https://jitpack.io' }
+    }
+}
+```
+module的build.gradle添加：
+```
+dependencies {
+       implementation 'com.github.huburt-Hu:Interceptors:v0.1.0'
 }
 ```
 
